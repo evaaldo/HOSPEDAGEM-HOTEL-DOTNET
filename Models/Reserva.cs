@@ -25,7 +25,7 @@ namespace DesafioProjetoHospedagem.Models
                 }
                 catch(Exception ex)
                 {
-                    throw ex;
+                    Console.WriteLine($"Erro ao cadastrar hóspedes. Erro: {ex.Message}");
                 }                
             }
         }

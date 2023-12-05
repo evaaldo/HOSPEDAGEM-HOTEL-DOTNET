@@ -1,21 +1,14 @@
-# DIO - Trilha .NET - Explorando a linguagem C#
-www.dio.me
+<h1>Gerenciamento de Estacionamento - .NET</h1>
+<h3>✦ O que é esse repositório?</h3>
+<p>Um sistema de controle de veículos de um estacionamento. Nele existem as funcionalidades de adicionar um veículo, listar veículos e remover veículos.</p>
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de explorando a linguagem C#, da trilha .NET da DIO.
+<h3>✦ Quais ferramentas utilizei?</h3>
+<ul>
+  <li>C#</li>
+  <li>.NET 6</li>
+</ul>
 
-## Contexto
-Você foi contratado para construir um sistema de hospedagem, que será usado para realizar uma reserva em um hotel. Você precisará usar a classe Pessoa, que representa o hóspede, a classe Suíte, e a classe Reserva, que fará um relacionamento entre ambos.
+<h3>✦ O que busco com esse projeto?</h3>
+<p>Fixar e praticar fundamentos de .NET por meio de um projeto console, sendo algo mais simples mas que posos exercitar bastante conceitos básicos.</p>
 
-O seu programa deverá cálcular corretamente os valores dos métodos da classe Reserva, que precisará trazer a quantidade de hóspedes e o valor da diária, concedendo um desconto de 10% para caso a reserva seja para um período maior que 10 dias.
-
-## Regras e validações
-1. Não deve ser possível realizar uma reserva de uma suíte com capacidade menor do que a quantidade de hóspedes. Exemplo: Se é uma suíte capaz de hospedar 2 pessoas, então ao passar 3 hóspedes deverá retornar uma exception.
-2. O método ObterQuantidadeHospedes da classe Reserva deverá retornar a quantidade total de hóspedes, enquanto que o método CalcularValorDiaria deverá retornar o valor da diária (Dias reservados x valor da diária).
-3. Caso seja feita uma reserva igual ou maior que 10 dias, deverá ser concedido um desconto de 10% no valor da diária.
-
-
-![Diagrama de classe estacionamento](diagrama_classe_hotel.png)
-
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+<p><strong>OBS: Esse projeto não terá uma hospedagem para utilização em outras aplicações, visto que ele tem foco apenas de estudo para entendimento das ferramentas e também por ser um projeto Console.</strong></p>
